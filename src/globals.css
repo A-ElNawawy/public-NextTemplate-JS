@@ -35,18 +35,19 @@
   --color3-rgba: rgba(85, 85, 85);
 
   --foreground-rgba: var(--color1-rgba);
-  --background-rgba: var(--color1-rgba);
+  --background-rgba: var(--color2-rgba);
 
   --main-rgba: var(--color1-rgba);
-  --second-rgba: var(--color1-rgba);
+  --second-rgba: var(--color3-rgba);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgba: var(--color2-rgba);
-    --background-rgba: var(--color2-rgba);
+    --background-rgba: var(--color1-rgba);
+
     --main-rgba: var(--color2-rgba);
-    --secondary-rgba: var(--color2-rgba);
+    --second-rgba: var(--color3-rgba);
   }
 }
 
@@ -54,7 +55,6 @@
   margin: 0;
   padding: 0;
 
-  font: inherit;
   font-family: var(--font-family);
 }
 
