@@ -2,11 +2,16 @@ const Home = () => {
   return (
     <main
       style={{
+        height: '70vh',
+
         display: 'grid',
-        height: '100vh',
         justifyContent: 'center',
         alignContent: 'center',
-        gap: '20px',
+        justifyItems: 'center',
+
+        gap: '30px',
+
+        textAlign: 'center',
       }}
     >
       <p>Hi, You are in the</p>
