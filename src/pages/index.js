@@ -3,9 +3,9 @@ const Home = () => {
     <main>
       <p>Hi,</p>
 
-      <p>
-        You are in the project <h1>Main</h1> Page
-      </p>
+      <p>You are in the project</p>
+
+      <h1>Main Page</h1>
     </main>
   );
 };
