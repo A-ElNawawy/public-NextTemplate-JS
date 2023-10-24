@@ -1,5 +1,13 @@
 const Home = () => {
-  return <main>Hi, You are in the Camel project</main>;
+  return (
+    <main>
+      <p>Hi,</p>
+
+      <p>
+        You are in the project <h1>Main</h1> Page
+      </p>
+    </main>
+  );
 };
 
 export default Home;
