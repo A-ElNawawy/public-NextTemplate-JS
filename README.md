@@ -1,2 +1,2 @@
 
-# Check our [Wiki](https://github.com/ElNawawy-org/NextTemplateJS/wiki).
+# Check The [Wiki]()
