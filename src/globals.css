@@ -1,0 +1,143 @@
+:root {
+  /* Media query break points */
+  --XS: 430px;
+  --S: 576px;
+  --M: 768px;
+  --L: 992px;
+  --XL: 1200px;
+  --XXL: 1400px;
+  --XXXL: 1920px;
+
+  /* Dimensions */
+  --unit-px: 5px;
+
+  --scrollbar-width: calc(2 * var(--unit-px));
+
+  --container-max-width: 1100px;
+
+  --border-radius: calc(2 * var(--unit-px));
+
+  --padding: var(--unit-px);
+  --gap: calc(2 * var(--unit-px));
+
+  /* Fonts */
+  --font-size: calc(3 * var(--unit-px));
+  --font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  /* Animation */
+  --transition-time: 0.2s;
+
+  /* Colors */
+  --color1-rgba: rgba(24, 97, 169);
+  --color2-rgba: rgba(255, 255, 255);
+  --color3-rgba: rgba(85, 85, 85);
+
+  --foreground-rgba: var(--color1-rgba);
+  --background-rgba: var(--color1-rgba);
+
+  --main-rgba: var(--color1-rgba);
+  --second-rgba: var(--color1-rgba);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgba: var(--color2-rgba);
+    --background-rgba: var(--color2-rgba);
+    --main-rgba: var(--color2-rgba);
+    --secondary-rgba: var(--color2-rgba);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font: inherit;
+  font-family: var(--font-family);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:empty {
+  display: none;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+
+  scrollbar-gutter: stable;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  color: var(--foreground-rgba);
+  background: var(--background-rgba);
+
+  min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color1-rgba);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--color2-rgba);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--color3-rgba);
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+
+  max-width: 100%;
+  max-height: 100%;
+
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+option {
+  color: inherit;
+}
+
+button {
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+ul {
+  list-style: none;
+}
