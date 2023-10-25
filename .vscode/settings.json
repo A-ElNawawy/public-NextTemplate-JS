@@ -26,6 +26,5 @@
   "prettier.requireConfig": false,
   "prettier.prettierPath": "./node_modules/prettier",
 
-  "cSpell.words": ["Parens"],
   "cSpell.language": "en,ar"
 }
