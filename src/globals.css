@@ -82,7 +82,7 @@ html {
 
 body {
   color: var(--foreground-rgba);
-  background: var(--background-rgba);
+  background-color: var(--background-rgba);
 
   min-height: 100vh;
 }
@@ -92,15 +92,15 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: var(--color1-rgba);
+  background-color: var(--color1-rgba);
 }
 
 body::-webkit-scrollbar-thumb {
-  background: var(--color2-rgba);
+  background-color: var(--color2-rgba);
 }
 
 body::-webkit-scrollbar-thumb:hover {
-  background: var(--color3-rgba);
+  background-color: var(--color3-rgba);
 }
 
 img,
