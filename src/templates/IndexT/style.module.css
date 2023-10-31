@@ -1,0 +1,12 @@
+.IndexT {
+  height: 70vh;
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+
+  gap: 30px;
+
+  text-align: center;
+}
