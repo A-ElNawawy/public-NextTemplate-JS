@@ -64,10 +64,6 @@
   box-sizing: border-box;
 }
 
-*:empty {
-  display: none;
-}
-
 html,
 body {
   max-width: 100vw;
