@@ -66,6 +66,26 @@
             "position": "after"
           },
           {
+            "pattern": "next",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "src/atoms/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "src/molecules/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "src/organisms/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
             "pattern": "src/templates/**",
             "group": "external",
             "position": "after"
@@ -76,12 +96,27 @@
             "position": "after"
           },
           {
-            "pattern": "src/Locales/**",
+            "pattern": "src/translation/**",
             "group": "external",
             "position": "after"
           },
           {
             "pattern": "src/data/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "src/adapters/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "src/assets/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "./style.module.css",
             "group": "external",
             "position": "after"
           }
