@@ -111,7 +111,12 @@
             "position": "after"
           },
           {
-            "pattern": "src/assets/**",
+            "pattern": "src/assets/icons/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "src/assets/images/**",
             "group": "external",
             "position": "after"
           },
