@@ -54,7 +54,7 @@
       2,
       {
         "alphabetize": {
-          "order": "desc"
+          "order": "asc"
         },
 
         "newlines-between": "always",
