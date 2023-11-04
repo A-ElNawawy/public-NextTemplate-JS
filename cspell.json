@@ -1,3 +1,4 @@
 {
-  "ignoreWords": ["ElNawawy", "Parens"]
+  "ignoreWords": ["ElNawawy", "Parens"],
+  "ignoreRegExpList": ["/[\\u0621-\\u064A]+/"]
 }
