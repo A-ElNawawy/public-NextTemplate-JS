@@ -96,6 +96,11 @@
             "position": "after"
           },
           {
+            "pattern": "src/fonts",
+            "group": "external",
+            "position": "after"
+          },
+          {
             "pattern": "src/translation/**",
             "group": "external",
             "position": "after"
