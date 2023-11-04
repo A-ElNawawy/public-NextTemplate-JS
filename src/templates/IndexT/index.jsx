@@ -7,7 +7,7 @@ export const IndexT = () => {
 
       <h1>Main Page</h1>
 
-      <p>Please I You Are A FE, Remove All This JSX Code Before You Start</p>
+      <p>Please If You Are A FE, Remove All This JSX Code Before You Start</p>
     </main>
   );
 };
