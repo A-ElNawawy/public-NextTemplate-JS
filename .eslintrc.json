@@ -66,7 +66,7 @@
             "position": "after"
           },
           {
-            "pattern": "next",
+            "pattern": "next/**",
             "group": "external",
             "position": "after"
           },
@@ -126,6 +126,11 @@
             "position": "after"
           },
           {
+            "pattern": "src/dummy/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
             "pattern": "./style.module.css",
             "group": "external",
             "position": "after"
@@ -140,6 +145,9 @@
 
     //Forbid using the var keyword
     "no-var": 2,
+
+    //Forbid using undefined variable
+    "no-undef": 2,
 
     //Forbid unused variables
     "no-unused-vars": [

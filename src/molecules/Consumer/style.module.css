@@ -1,0 +1,8 @@
+.Consumer {
+  --gap: calc(5 * var(--unit-px));
+
+  display: flex;
+  gap: var(--gap);
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
