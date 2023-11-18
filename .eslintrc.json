@@ -96,7 +96,7 @@
             "position": "after"
           },
           {
-            "pattern": "src/fonts",
+            "pattern": "src/helpers/**",
             "group": "external",
             "position": "after"
           },
@@ -107,6 +107,11 @@
           },
           {
             "pattern": "src/data/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "src/dummy/**",
             "group": "external",
             "position": "after"
           },
@@ -126,7 +131,7 @@
             "position": "after"
           },
           {
-            "pattern": "src/dummy/**",
+            "pattern": "src/fonts",
             "group": "external",
             "position": "after"
           },
