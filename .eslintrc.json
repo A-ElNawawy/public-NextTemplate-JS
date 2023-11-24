@@ -61,7 +61,7 @@
 
         "pathGroups": [
           {
-            "pattern": "react",
+            "pattern": "react/**",
             "group": "external",
             "position": "after"
           },
@@ -122,6 +122,11 @@
           },
           {
             "pattern": "src/assets/icons/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "src/assets/svg/**",
             "group": "external",
             "position": "after"
           },
