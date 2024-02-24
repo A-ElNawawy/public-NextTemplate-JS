@@ -1,4 +1,4 @@
-### What do we mean with "createNewRoute":
+### What do we mean with "create new page":
 
 A new page, a new url, a new path.
 

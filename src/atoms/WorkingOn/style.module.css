@@ -6,9 +6,13 @@
   justify-items: center;
   justify-content: center;
   align-items: center;
-  align-content: center;
+  align-content: space-between;
 
   font-size: var(--xxl-font-size);
 
   text-align: center;
+}
+
+.pageNameS {
+  text-decoration: underline;
 }

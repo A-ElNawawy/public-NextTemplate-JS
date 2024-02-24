@@ -1,4 +1,13 @@
 {
-  "ignoreWords": ["ElNawawy", "Parens"],
-  "ignoreRegExpList": ["/[\\u0621-\\u064A]+/"]
+  //Global ignored words
+  "ignoreWords": ["ElNawawy", "Parens", "webp", "Xlink"],
+
+  //To ignore Arabic errors
+  "ignoreRegExpList": ["/[\\u0621-\\u064A]+/"],
+
+  //This project ignored words
+  "words": [],
+
+  //This project ignored paths
+  "ignorePaths": ["src/adapters/vocab.json"]
 }

@@ -14,8 +14,14 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Adding documentation for your code is more than welcome.
+- I've designed this template according to my experience in the previous projects.
+- You may find some files useless, if so, remove them after you finish development.
+- You can search them in the entire project by this key word (TODO: Remove if unused).
 
-We have a single module in this project which is the [./src](./src) directory.
+- Adding documentation for your code is more than welcome.
 
-Directories structure is cloned from the pages structure.
+- This project has a single module which is the [src](../src) folder.
+
+- MainFolder: is any direct child folder under [src](../src).
+
+- MainFolder internal structure will be the same as the [pages](../src/pages).

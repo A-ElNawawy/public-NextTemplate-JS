@@ -53,3 +53,11 @@ You can also mix...
 - State:
 
       PascalCase
+
+- CSS variables:
+
+      kebab-case
+
+      with the same name of the css property that will use the variable.
+
+      ex: gap: var(--gap)

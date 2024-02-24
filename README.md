@@ -2,7 +2,7 @@
 
 - [About.](documentation/about.md)
 - [APIs.](documentation/apisExplanation.md)
-- [Create a new page.](documentation/createNewRoute.md)
+- [Create a new page.](documentation/createNewPage.md)
 - [Form Validation Roles.](documentation/formValidation.md)
 - [Git Workflow.](documentation/gitWorkflow.md)
 - [Naming.](documentation/naming.md)

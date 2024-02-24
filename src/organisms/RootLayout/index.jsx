@@ -1,3 +1,4 @@
+//TODO: Remove if unused
 import { useRouter } from 'next/router';
 
 import { Main } from 'src/atoms/Main';
@@ -6,7 +7,6 @@ import { IBMPlexSansArabic } from 'src/fonts';
 
 import { RootLayoutS } from './style.module.css';
 
-//TODO: Remove if unused
 export const RootLayout = ({ children }) => {
   const pathname = useRouter().asPath;
 

@@ -1,3 +1,5 @@
+//TODO: Remove if unused
+
 const MAIN_TITLE_TAG = 'مؤسسة ساعي لتطوير الأوقاف';
 const GO_TO_TOP = 'إلي أعلي الصفحة';
 const BACK_TO_HOME = 'العودة إلي الرئيسية';

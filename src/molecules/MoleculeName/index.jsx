@@ -1,5 +1,6 @@
-import style from './style.module.css';
+//TODO: Remove if unused
+import { MoleculeNameS } from './style.module.css';
 
 export const MoleculeName = () => {
-  return <div className={style.MoleculeName}>MoleculeName</div>;
+  return <div className={MoleculeNameS}></div>;
 };
