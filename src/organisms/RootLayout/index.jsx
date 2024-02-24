@@ -4,16 +4,16 @@ import { Main } from 'src/atoms/Main';
 
 import { IBMPlexSansArabic } from 'src/fonts';
 
-import { mainLayout } from './style.module.css';
+import { RootLayoutS } from './style.module.css';
 
 //TODO: Remove if unused
-export const MainLayout = ({ children }) => {
+export const RootLayout = ({ children }) => {
   const pathname = useRouter().asPath;
 
   const home = pathname === '/';
 
   return (
-    <section className={`${mainLayout} ${IBMPlexSansArabic.className}`}>
+    <section className={`${RootLayoutS} ${IBMPlexSansArabic.className}`}>
       {/* ===================== */}
       {/* fixed position elements */}
       {/* <Nav/> */}

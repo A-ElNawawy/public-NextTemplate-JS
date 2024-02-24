@@ -1,4 +1,4 @@
-import { MainLayout } from 'src/organisms/MainLayout';
+import { RootLayout } from 'src/organisms/RootLayout';
 
 import { ContextProviders } from 'src/context/ContextProviders';
 
@@ -8,9 +8,9 @@ const App = ({ Component, pageProps }) => {
   return (
     //TODO: Remove if unused
     <ContextProviders>
-      <MainLayout>
+      <RootLayout>
         <Component {...pageProps} />
-      </MainLayout>
+      </RootLayout>
     </ContextProviders>
   );
 };
