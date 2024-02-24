@@ -9,7 +9,7 @@
   --XXXL: 1920px;
 
   /* Dimensions */
-  --unit-px: 2px;
+  --unit-px: 8px;
 
   --scrollbar-width: calc(4 * var(--unit-px));
 

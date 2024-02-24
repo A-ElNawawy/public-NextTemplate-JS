@@ -61,16 +61,6 @@
 
         "pathGroups": [
           {
-            "pattern": "react/**",
-            "group": "external",
-            "position": "after"
-          },
-          {
-            "pattern": "next/**",
-            "group": "external",
-            "position": "after"
-          },
-          {
             "pattern": "src/atoms/**",
             "group": "external",
             "position": "after"
@@ -101,7 +91,17 @@
             "position": "after"
           },
           {
-            "pattern": "src/translation/**",
+            "pattern": "src/validation/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "src/api",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "src/locales/**",
             "group": "external",
             "position": "after"
           },
@@ -136,12 +136,22 @@
             "position": "after"
           },
           {
+            "pattern": "public/**",
+            "group": "external",
+            "position": "after"
+          },
+          {
             "pattern": "src/fonts",
             "group": "external",
             "position": "after"
           },
           {
             "pattern": "./style.module.css",
+            "group": "external",
+            "position": "after"
+          },
+          {
+            "pattern": "globals.css",
             "group": "external",
             "position": "after"
           }
@@ -170,6 +180,7 @@
 
   "overrides": [
     {
+      //TODO: Check the path of the pages dir
       "files": ["src/pages/**/*"],
       "rules": {
         //Forbid using default export
@@ -177,7 +188,7 @@
       }
     },
     {
-      "files": ["_app.js"],
+      "files": ["_app.*"],
       "rules": {
         //Forbid using this: import 'fileName'
         "import/no-unassigned-import": 0
