@@ -1,6 +1,6 @@
 {
   //Global ignored words
-  "ignoreWords": ["ElNawawy", "Parens", "webp", "Xlink"],
+  "ignoreWords": ["ElNawawy", "Parens", "webp", "Xlink", "SCREAMCASE"],
 
   //To ignore Arabic errors
   "ignoreRegExpList": ["/[\\u0621-\\u064A]+/"],
