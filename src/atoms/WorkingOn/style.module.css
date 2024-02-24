@@ -1,0 +1,14 @@
+.WorkingOnS {
+  min-height: 400px;
+
+  display: grid;
+  gap: var(--gap);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  font-size: var(--xxl-font-size);
+
+  text-align: center;
+}

@@ -1,13 +1,14 @@
-import style from './style.module.css';
+import { WorkingOn } from 'src/atoms/WorkingOn';
+
+import { HomeS } from './style.module.css';
 
 export const HomeT = () => {
   return (
-    <main className={style.HomeT}>
-      <p>Hi, You are in the</p>
-
-      <h1>Main Page!</h1>
-
-      <p>Please If You Are A FE, Remove All This JSX Code Before You Start</p>
-    </main>
+    <div className={HomeS}>
+      <WorkingOn
+        pageName='Home Page'
+        massage='If You will use this code, Please read the documentation carefully before editing'
+      />
+    </div>
   );
 };
