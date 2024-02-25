@@ -9,3 +9,5 @@
 - [Routes.](documentation/routes.md)
 - [Technologies.](documentation/technologies.md)
 - [Useful VSCode Extensions.](documentation/VSCodeExtensions.md)
+
+- [Folder Structure.](documentation/folderStructure.txt)
