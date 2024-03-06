@@ -25,3 +25,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - MainFolder: is any direct child folder under [src](../src).
 
 - MainFolder internal structure will be the same as the [pages](../src/pages).
+
+- We handle fonts using [this method](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) from nextJS.

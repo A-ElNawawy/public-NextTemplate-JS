@@ -50,6 +50,10 @@ You can also mix...
 
       PascalCase+Icon
 
+- Icon Styling:
+
+      Using className as a prop
+
 - State:
 
       PascalCase
