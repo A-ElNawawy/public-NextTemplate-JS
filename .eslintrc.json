@@ -25,7 +25,7 @@
     //Forbid importing default that has the same name as a named export
     "import/no-named-as-default": 2,
 
-    //Force all exports to be at the end of the file
+    //Force all exports to be in a group
     "import/group-exports": 2,
 
     //Force all exports to be at the end of the file
