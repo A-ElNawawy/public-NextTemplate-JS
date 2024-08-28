@@ -1,4 +1,4 @@
-# Intro:
+## Intro:
 
 ```
 1. camelCase
@@ -14,54 +14,54 @@ You can also mix...
 
 ```
 
-- Data:
+## - Data:
 
-      Variables: SCREAM_SNAKE_CASE
-      File Name: *.data.json
+    Variables: SCREAM_SNAKE_CASE
+    File Name: *.data.json
 
-- Components (organism, molecule, or atom):
+## - Components (organism, molecule, or atom):
 
-      Main Function: PascalCase
-      Main Function className: PascalCase
+    Main Function: PascalCase
+    Main Function className: PascalCase
 
-      File Name: PascalCase and MUST match the main function name.
+    File Name: PascalCase and MUST match the main function name.
 
-- Template:
+## - Template:
 
-      Main Function: Pascal_Snake_Case
-      Main Function className: Pascal_Snake_Case
+    Main Function: PascalCase
+    Main Function className: PascalCase
 
-      File Name: Pascal_Snake_Case and MUST match the main function name.
+    File Name: PascalCase and MUST match the main function name.
 
-      It has to have a T suffix in its name (ex.: AboutT or HomeT).
+    It has to have a T suffix in its name (ex.: AboutT or HomeT).
 
-- Page file Name:
+## - Page file Name:
 
-      Main Function: Pascal_Snake_Case
-      Main Function className: Pascal_Snake_Case
+    Main Function: Pascal_Snake_Case
+    Main Function className: Pascal_Snake_Case
 
-      File Name: snake_case
+    File Name: snake_case
 
-- ClassName:
+## - ClassName:
 
-      camelCase
+    camelCase
 
-- Icon File Name:
+## - Icon File Name:
 
-      PascalCase+Icon
+    PascalCase+Icon
 
-- Icon Styling:
+## - Icon Styling:
 
-      Using className as a prop
+    Using className as a prop
 
-- State:
+## - State:
 
-      PascalCase
+    PascalCase
 
-- CSS variables:
+## - CSS variables:
 
-      kebab-case
+    kebab-case
 
-      with the same name of the css property that will use the variable.
+    with the same name of the css property that will use the variable.
 
-      ex: gap: var(--gap)
+    ex: gap: var(--gap)
