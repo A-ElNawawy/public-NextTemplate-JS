@@ -1,9 +1,10 @@
 //TODO: Remove if unused
 import { useRouter } from 'next/router';
 
+import { Main } from 'src/atoms/Main';
+
 import { IBMPlexSansArabic } from 'src/fonts';
 
-import { Main } from 'src/atoms/Main';
 
 import { RootLayoutS } from './style.module.css';
 
