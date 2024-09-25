@@ -5,7 +5,6 @@ import { Main } from 'src/atoms/Main';
 
 import { IBMPlexSansArabic } from 'src/fonts';
 
-
 import { RootLayoutS } from './style.module.css';
 
 export const RootLayout = ({ children }) => {
@@ -13,20 +12,6 @@ export const RootLayout = ({ children }) => {
 
   const home = pathname === '/';
 
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
   return (
     <section className={`${RootLayoutS} ${IBMPlexSansArabic.className}`}>
       {/* ===================== */}

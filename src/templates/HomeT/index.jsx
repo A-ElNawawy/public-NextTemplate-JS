@@ -8,7 +8,7 @@ export const HomeT = () => {
     <div className={HomeS}>
       <WorkingOn
         pageName='Home Page'
-        massage='If You will use this code, Please read the documentation carefully before editing'
+        message='If You will use this code, Please read the documentation carefully before editing'
       />
     </div>
   );
