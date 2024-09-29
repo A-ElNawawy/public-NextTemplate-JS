@@ -10,7 +10,7 @@
 ## Guarded Branches:
 
     - main
-    - beta
+    - staging
     - testing
     - dev
 
